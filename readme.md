@@ -4,8 +4,10 @@
 
 The ETL process is essential for dealing with data in the real world, where it often comes from various sources and can be messy. ETL, which stands for Extract, Transform, and Load, is a fundamental skill that allows you to work with data effectively. It involves extracting data from different sources, transforming it to make it clean and useful, and then loading it into a database for analysis. In this project, we'll apply ETL techniques to the following datasets.
 
-##Team Members
+Team Members
+
 Jasmine King
+
 Rahiem Brooks
 
 ## Data Sources
