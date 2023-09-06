@@ -1,0 +1,33 @@
+Contacts
+--------
+contact_id PK int
+first_name string
+last_name string
+email string
+
+Category
+--------
+category_id PK string(50)
+category string(50)
+
+Subcategory
+-----------
+subcategory_id PK string(50)
+subcategory string(50)
+
+Campaign
+-------
+cf_id PK int
+contact_id int FK >- Contacts.contact_id
+company_name string(50)
+description text
+goal float
+pledged float
+outcome string(50)
+backers_count int
+country string(50)
+currency string(50)
+launched_date date
+end_date date
+category_id string(50) FK >- Category.category_id
+subcategory_id string(50) FK >- Subcategory.subcategory_id
